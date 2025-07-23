@@ -18,6 +18,8 @@ import Highlight from '@tiptap/extension-highlight'
 import Link from '@tiptap/extension-link'
 import { useEditorStore } from '@/store/use-editor';
 
+import { fontSizeExtension } from '@/extensions/font-size';
+
 import StarterKit from '@tiptap/starter-kit'
 
 export const Editor = () => {
@@ -57,6 +59,7 @@ export const Editor = () => {
         },
         extensions: [
             StarterKit,
+            fontSizeExtension,
             Link.configure({
                 openOnClick: false,
                 autolink: true,
