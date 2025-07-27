@@ -16,7 +16,7 @@ import TextAlign from '@tiptap/extension-text-align'
 import { Color } from '@tiptap/extension-color'
 import Highlight from '@tiptap/extension-highlight'
 import Link from '@tiptap/extension-link'
-import { useEditorStore } from '@/store/use-editor';
+import { useEditorStore } from '@/store/use-editor-store';
 
 import { fontSizeExtension } from '@/extensions/font-size';
 import { LineHeightExtension } from '@/extensions/line-height';
@@ -90,7 +90,6 @@ export const Editor = () => {
             }),
             TaskList,
         ],
-        content: '<p> hello world! </p>',
     })
 
 
