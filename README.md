@@ -15,7 +15,11 @@ A real-time collaborative document editor inspired by Google Docs. Built using *
 - 🎨 **Clean and modern UI** designed with TailwindCSS and ShadCN UI for an intuitive user experience.
 - 🌐 **Fast and fully serverless deployment** on Vercel, ensuring high availability and performance.
 
+
+
 ---
+
+
 
 ## 🛠️ Tech Stack
 
