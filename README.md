@@ -17,6 +17,8 @@
   <a href="https://liveblocks.io/"><img src="https://img.shields.io/badge/Liveblocks-111827?style=flat&logo=liveblocks&logoColor=white" alt="Liveblocks" /></a>
   <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white" alt="Vercel" /></a>
   <a href="https://github.com/NEO6667/TypeSync.git"><img src="https://img.shields.io/github/stars/NEO6667/TypeSync?style=social" alt="GitHub Stars" /></a>
+  </p>
+  <p align="center">
   🔗 <strong><a href="https://type-sync-eta.vercel.app" target="_blank">Live Demo</a></strong>
 </p>
 
