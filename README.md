@@ -11,12 +11,14 @@
 <p align="center">
   <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-000?style=flat&logo=nextdotjs" alt="Next.js" /></a>
   <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white" alt="TailwindCSS" /></a>
+  <a href="https://ui.shadcn.com/"><img src="https://img.shields.io/badge/ShadCN_UI-000000?style=flat&logo=storybook&logoColor=white" alt="ShadCN UI" /></a>
+  <a href="https://clerk.dev/"><img src="https://img.shields.io/badge/Clerk-3B82F6?style=flat&logo=clerk&logoColor=white" alt="Clerk" /></a>
+  <a href="https://www.convex.dev/"><img src="https://img.shields.io/badge/Convex-4F46E5?style=flat&logo=databricks&logoColor=white" alt="Convex" /></a>
+  <a href="https://liveblocks.io/"><img src="https://img.shields.io/badge/Liveblocks-111827?style=flat&logo=liveblocks&logoColor=white" alt="Liveblocks" /></a>
   <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white" alt="Vercel" /></a>
-  <a href="https://github.com/YOUR_USERNAME/typesync/blob/main/LICENSE"><img src="https://img.shields.io/github/license/YOUR_USERNAME/typesync" alt="License" /></a>
-  <a href="https://github.com/YOUR_USERNAME/typesync/stargazers"><img src="https://img.shields.io/github/stars/YOUR_USERNAME/typesync?style=social" alt="Stars" /></a>
+  <a href="https://github.com/NEO6667/TypeSync.git"><img src="https://img.shields.io/github/stars/NEO6667/TypeSync?style=social" alt="GitHub Stars" /></a>
 </p>
 
-<p align="center">
   🔗 <strong><a href="https://type-sync-eta.vercel.app" target="_blank">Live Demo</a></strong>
 </p>
 
