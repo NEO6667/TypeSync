@@ -1,4 +1,4 @@
-# 📝 TypeSync
+# TypeSync
 
 A real-time collaborative document editor inspired by Google Docs. Built using **Next.js**, **TailwindCSS**, **ShadCN UI**, **Convex**, **Clerk**, and **Liveblocks** — and deployed on **Vercel**.
 
@@ -8,12 +8,12 @@ A real-time collaborative document editor inspired by Google Docs. Built using *
 
 ## 🚀 Features
 
-- ⚡ Real-time collaboration with cursor presence
-- ✅ Authentication & user management (powered by Clerk)
-- 📁 Document creation, editing, and live sync
-- 🧠 Database-backed document storage (Convex)
-- 🎨 Clean and modern UI (TailwindCSS + ShadCN)
-- 🌐 Fast and fully serverless deployment on Vercel
+- ⚡ **Real-time collaboration** with cursor presence, allowing multiple users to edit documents simultaneously.
+- ✅ **Authentication & user management** powered by Clerk for secure access and personalized experiences.
+- 📁 **Document creation, editing, and live sync** to ensure all changes are reflected instantly across collaborators.
+- 🧠 **Database-backed document storage** using Convex, providing a robust and scalable backend.
+- 🎨 **Clean and modern UI** designed with TailwindCSS and ShadCN UI for an intuitive user experience.
+- 🌐 **Fast and fully serverless deployment** on Vercel, ensuring high availability and performance.
 
 ---
 
@@ -30,33 +30,37 @@ A real-time collaborative document editor inspired by Google Docs. Built using *
 
 ## 📸 Screenshots
 
-<!-- Uncomment and replace with real screenshots if available -->
-<!-- 
-<p align="center">
-  <img src="https://your-screenshot-url.com/editor.png" alt="TypeSync Editor" width="600"/>
-</p> 
--->
-
 ---
 
 ## 📦 Installation
 
-Clone the repository and install dependencies:
+To get a local copy up and running, follow these simple steps:
 
-```bash
-git clone https://github.com/your-username/typesync.git
-cd typesync
-npm install
-🧪 Development
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/typesync.git](https://github.com/your-username/typesync.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd typesync
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+---
+
+## 🧪 Development
+
 To start the development server:
 
-bash
-Copy
-Edit
+```bash
 npm run dev
-⚙️ Environment Variables
+```
+## ⚙️ Environment Variables
 Create a .env.local file and configure the following variables:
-
+```bash
 env
 Copy
 Edit
@@ -68,15 +72,16 @@ CONVEX_DEPLOYMENT=your_convex_deployment_name
 CONVEX_ADMIN_KEY=your_convex_admin_key
 
 LIVEBLOCKS_PUBLIC_KEY=your_liveblocks_public_key
+```
 ⚠️ Make sure you set up your Clerk, Convex, and Liveblocks projects before running the app.
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Feel free to open issues, suggest new features, or submit pull requests to improve the project.
 
 📄 License
 This project is licensed under the MIT License.
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 Next.js
 
 Convex
