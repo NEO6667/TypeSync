@@ -1,11 +1,22 @@
 
 import { useRef, useState } from "react";
 import { FaCaretDown } from "react-icons/fa";
+import { useStorage, useMutation } from "@liveblocks/react";
+
+import { LEFT_MARGIN, RIGHT_MARGIN, PAGE_WIDTH } from "@/constants/margins";
+
 const markers = Array.from({ length: 83 }, (_, i) => i)
 
 export const Ruler = () => {
-    const [leftMargin, setLeftMargin] = useState(56);
-    const [rightMargin, setRightMargin] = useState(56);
+    const leftMargin = useStorage((root) => root.leftMargin) ?? LEFT_MARGIN;
+    const setLeftMargin = useMutation(({ storage }, position: number) => {
+        storage.set("leftMargin", position);
+    }, [])
+
+    const rightMargin = useStorage((root) => root.rightMargin) ?? RIGHT_MARGIN;
+    const setRightMargin = useMutation(({ storage }, position: number) => {
+        storage.set("rightMargin", position);
+    }, [])
 
     const [isDraggingLeft, setIsDraggingLeft] = useState(false);
     const [isDraggingRight, setIsDraggingRight] = useState(false);
@@ -20,7 +31,6 @@ export const Ruler = () => {
     };
 
     const handleMouseMove = (e: React.MouseEvent) => {
-        const PAGE_WIDTH = 816;
         const MINIMUM_SPACE = 100
         if((isDraggingLeft || isDraggingRight) && rulerRef.current) {
             const container = rulerRef.current.querySelector("#ruler-container");
@@ -32,7 +42,7 @@ export const Ruler = () => {
                 if(isDraggingLeft) {
                     const maxLeftPosition = PAGE_WIDTH - rightMargin - MINIMUM_SPACE;
                     const newLeftPosition = Math.min(rawPosition, maxLeftPosition);
-                    setLeftMargin(newLeftPosition); //Todo: collab
+                    setLeftMargin(newLeftPosition);
                 } else if (isDraggingRight) {
                     const maxRightPosition = PAGE_WIDTH - (leftMargin + MINIMUM_SPACE);
                     const newRightPosition = Math.max(PAGE_WIDTH - rawPosition, 0);
@@ -49,11 +59,11 @@ export const Ruler = () => {
     }
 
     const handleLeftDoubleClick = () => {
-        setLeftMargin(56);
+        setLeftMargin(LEFT_MARGIN);
     }
 
     const handleRightDoubleClick = () => {
-        setRightMargin(56);
+        setRightMargin(RIGHT_MARGIN);
     }
 
 
@@ -85,7 +95,7 @@ export const Ruler = () => {
                 <div className="absolute inset-x-0 bottom-0 h-full">
                     <div className="relative h-full w-[816px]">
                         {markers.map((marker) =>{
-                            const position = (marker * 816) / 82;
+                            const position = (marker * PAGE_WIDTH) / 82;
 
                             return (
                                 <div
