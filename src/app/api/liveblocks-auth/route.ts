@@ -28,6 +28,7 @@ export async function POST(req: Request) {
 
     const isOwner = document.ownerId === user.id;
     const isOrganizationMember = 
+    //@ts-expect-error session
         !!(document.organizationId && document.organizationId === sessionClaims?.o.id);
 
     if(!isOwner && !isOrganizationMember){

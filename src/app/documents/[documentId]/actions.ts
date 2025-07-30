@@ -17,6 +17,7 @@ export async function getUsers() {
     const clerk = await clerkClient();
 
     const response = await clerk.users.getUserList({
+            //@ts-expect-error session
         organizationId: [sessionClaims?.o.id as string],
     });
 
@@ -24,6 +25,7 @@ export async function getUsers() {
         id: user.id,
         name: user.fullName ?? user.primaryEmailAddress?.emailAddress ?? "Anonymous",
         avatar: user.imageUrl,
+        color: ""
     }));
 
     return users;
