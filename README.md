@@ -1,8 +1,24 @@
-# TypeSync
+<p align="center">
+  <img src="https://your-banner-image-url.com/banner.png" alt="TypeSync Banner" width="100%" />
+</p>
 
-A real-time collaborative document editor inspired by Google Docs. Built using **Next.js**, **TailwindCSS**, **ShadCN UI**, **Convex**, **Clerk**, and **Liveblocks** — and deployed on **Vercel**.
+<h1 align="center">📝 TypeSync</h1>
 
-🔗 **Live Demo**: [https://type-sync-eta.vercel.app](https://type-sync-eta.vercel.app)
+<p align="center">
+  A real-time collaborative document editor inspired by Google Docs.
+</p>
+
+<p align="center">
+  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-000?style=flat&logo=nextdotjs" alt="Next.js" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white" alt="TailwindCSS" /></a>
+  <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white" alt="Vercel" /></a>
+  <a href="https://github.com/YOUR_USERNAME/typesync/blob/main/LICENSE"><img src="https://img.shields.io/github/license/YOUR_USERNAME/typesync" alt="License" /></a>
+  <a href="https://github.com/YOUR_USERNAME/typesync/stargazers"><img src="https://img.shields.io/github/stars/YOUR_USERNAME/typesync?style=social" alt="Stars" /></a>
+</p>
+
+<p align="center">
+  🔗 <strong><a href="https://type-sync-eta.vercel.app" target="_blank">Live Demo</a></strong>
+</p>
 
 ---
 
