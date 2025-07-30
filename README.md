@@ -61,9 +61,7 @@ npm run dev
 ## ⚙️ Environment Variables
 Create a .env.local file and configure the following variables:
 ```bash
-env
-Copy
-Edit
+
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 
