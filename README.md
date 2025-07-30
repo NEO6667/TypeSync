@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 TypeSync
 
-## Getting Started
+A real-time collaborative document editor inspired by Google Docs. Built using **Next.js**, **TailwindCSS**, **ShadCN UI**, **Convex**, **Clerk**, and **Liveblocks** — and deployed on **Vercel**.
 
-First, run the development server:
+🔗 **Live Demo**: [https://type-sync-eta.vercel.app](https://type-sync-eta.vercel.app)
+
+---
+
+## 🚀 Features
+
+- ⚡ Real-time collaboration with cursor presence
+- ✅ Authentication & user management (powered by Clerk)
+- 📁 Document creation, editing, and live sync
+- 🧠 Database-backed document storage (Convex)
+- 🎨 Clean and modern UI (TailwindCSS + ShadCN)
+- 🌐 Fast and fully serverless deployment on Vercel
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/), [ShadCN UI](https://ui.shadcn.com/)
+- **Authentication:** [Clerk](https://clerk.dev/)
+- **Database & Backend:** [Convex](https://www.convex.dev/)
+- **Real-time Collaboration:** [Liveblocks](https://liveblocks.io/)
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 📸 Screenshots
+
+<!-- Uncomment and replace with real screenshots if available -->
+<!-- 
+<p align="center">
+  <img src="https://your-screenshot-url.com/editor.png" alt="TypeSync Editor" width="600"/>
+</p> 
+-->
+
+---
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
 
 ```bash
+git clone https://github.com/your-username/typesync.git
+cd typesync
+npm install
+🧪 Development
+To start the development server:
+
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+⚙️ Environment Variables
+Create a .env.local file and configure the following variables:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+env
+Copy
+Edit
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+NEXT_PUBLIC_CONVEX_URL=your_convex_url
+CONVEX_DEPLOYMENT=your_convex_deployment_name
+CONVEX_ADMIN_KEY=your_convex_admin_key
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+LIVEBLOCKS_PUBLIC_KEY=your_liveblocks_public_key
+⚠️ Make sure you set up your Clerk, Convex, and Liveblocks projects before running the app.
 
-## Learn More
+🤝 Contributing
+Contributions are welcome! Feel free to open issues, suggest new features, or submit pull requests to improve the project.
 
-To learn more about Next.js, take a look at the following resources:
+📄 License
+This project is licensed under the MIT License.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🙌 Acknowledgements
+Next.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Convex
 
-## Deploy on Vercel
+Clerk
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Liveblocks
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ShadCN UI
+
+Vercel
