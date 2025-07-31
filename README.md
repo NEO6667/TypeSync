@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://your-banner-image-url.com/banner.png" alt="TypeSync Banner" width="100%" />
+  <img src="/public/logo2.svg" alt="TypeSync Banner" width="100%" />
 </p>
 
 <h1 align="center">📝 TypeSync</h1>
@@ -51,6 +51,11 @@
 ---
 
 ## 📸 Screenshots
+
+| Desktop 1 | Desktop 2 |
+|-----------|-----------|
+| ![desktop1](./public/TypeSync-1.png) | ![desktop2](./public/TypeSync-3.png) |
+
 
 ---
 
