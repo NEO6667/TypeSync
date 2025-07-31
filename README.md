@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/public/logo2.svg" alt="TypeSync Banner" width="100%" />
+  <img src="/public/logo2.svg" alt="TypeSync Banner" width="20&" />
 </p>
 
 <h1 align="center">📝 TypeSync</h1>
